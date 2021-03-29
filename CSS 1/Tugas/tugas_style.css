@@ -1,0 +1,53 @@
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:cadetblue
+}
+
+ul {
+    overflow: hidden;
+    background-color: #E6E6FA;
+    padding: 10;
+    margin: 0;
+    list-style-type: none;
+    width: 1300px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #556B2F;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:  #F0FFFF;
+}
+
+p.ridge {
+    border-style: ridge; border-color: lightblue; padding: 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    text-align: justify; margin-right: 50; margin-left: 250;
+}
+
+p.none {
+    border-style: none; text-align: center; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.kotak {
+    margin-left: 39%;
+    margin-right: 30%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.youtube {
+    width: 200px;
+    float: left;
+    padding: 10px;
+    margin-right:10px;
+}
