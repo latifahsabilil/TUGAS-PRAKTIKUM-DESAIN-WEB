@@ -1,0 +1,260 @@
+#wrap{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffdcdb;
+}
+
+#header{
+    border-bottom-left-radius: 5px;
+    width: 730px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+    float: right;
+}
+
+
+#judul{
+    font-size: 50px;
+    text-align: right;
+    padding: -200px 0px 0px 0px;
+}
+
+#judul a{
+    color: #91a8d0;
+    text-decoration: none;
+    padding: -100px 0px 0px 0px;
+}
+
+#judul a:hover{
+    color: grey;
+}
+
+.desc{
+    font-size: 30px;
+    color: #b4c8ea;
+    text-align: right;
+    padding: 0 40px 0 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#menu ul{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: right;
+    background: #91a8d0;
+    padding: 0 0px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+    list-style: none;
+    width: 730px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu ul:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#menu ul li{
+    float: left;
+}
+
+#menu ul li:hover{
+    background: #b4c8ea;
+}
+
+#menu ul li a{
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#menu ul li:hover a{
+    color: white;
+}
+
+#menu ul li:hover > ul {
+    display: block;
+}
+
+#menu ul ul{
+    background: #b4c8ea;
+    position: absolute;
+    padding: 0;
+    top: 100%;
+    display: none;
+    width: auto;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu ul ul li{
+    float: none;
+    position: relative;
+}
+
+#menu ul ul li a{
+    padding: 10px 30px;
+    color: white;
+}
+
+#menu ul ul li a:hover{
+    background: #ffdcdb;
+    color: #fffaf0;
+}
+
+#menu ul ul ul{
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+#kiri{
+    border-bottom-right-radius: 5px;
+    background-color: #91a8d0;
+    width: 250px;
+    height: auto;
+    margin: 0 0 20px;
+    float: left;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#kiri ul{
+    margin: 20px 30px 20px 20px;
+    padding: 0;
+    list-style: none;
+    width: 200px;
+}
+
+#kiri li{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#kiri h2{
+    margin: 0px 0 0px 0;
+    padding: 5px 12px;
+    color: black;
+    font-size: 20px;
+    background:	#fffaf0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#kiri a{
+    display: block;
+    padding: 3px 10px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid lightcyan;
+}
+
+#kiri a:hover{
+    color: #fffaf0;
+}
+
+#konten{
+    background-color: #fffaf0;
+    width: 690px;
+    height: auto;
+    margin: 0 0 20px;
+    padding: 20px 20px 20px 20px;
+    float: right;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.judulpost{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: fantasy;
+    color: black;
+}
+
+.judulpost a{
+    text-decoration: none;
+}
+
+.post{
+    margin: 0 20px 20px 20px;
+    text-align: none;
+}
+
+
+b a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+#logo{
+    width: 200px;
+    height: 200%;
+}
+
+#bawah{
+    background-color: #b4c8ea;
+    padding: 20px 0 0 0;
+    width: 1000px;
+    height: 60px;
+    clear: both;
+    margin: 0 0;
+    text-align: center;
+    color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: monospace;
+}
+
+.icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.tombol{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #b4c8ea;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: 20 5px 15px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+    color: #ffdcdb;
+}
+
+.tombol i{
+    transition: 0.2s linear;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.tombol:hover i{
+    transform: scale(1.3);
+    color: #ecb2b1;
+}
+
+.sosmed{
+    right: 40px;
+    top: 0px;
+    position: fixed;
+    width: 50px;
+    height: 1000px;
+}
+
+
