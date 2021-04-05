@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tile>Praktikum 6_1</tile>
+        <style>
+            .static{
+                left: 100px;
+                position: static;
+                width: 300px;
+                height: 1000px;
+                background: rgb(173, 106, 106);
+            }
+            .relative{
+                left: 100px;
+                position: relative;
+                width: 400px;
+                height: 200px;
+                background: rgb(142, 143, 187);
+            }
+            .absolute{
+                left: 600px;
+                top: 150px;
+                position: absolute;
+                width: 300px;
+                height: 100px;
+                background: rgb(134, 165, 141);
+            }
+            .fixed{
+                left: 1000px;
+                top: 50px;
+                position: fixed;
+                width: 200px;
+                height: 100px;
+                background: rgb(196, 195, 147);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="static">
+            Ini elemen position static. <br> Nilai left 100 px tidak pengaruh
+        </div>
+        <div class="relative">
+            Ini elemen position relative. <br> Nilai left 100 px mengikuti alur
+        </div>
+        <div class="absolute">
+            Ini elemen position absolute. <br> Bisa diletakkan dimana saja
+        </div>
+        <div class="fixed">
+            Ini elemen position fixed. <br> Posisi tetap walaupun di scroll
+        </div>
+    </body>
+</html>
