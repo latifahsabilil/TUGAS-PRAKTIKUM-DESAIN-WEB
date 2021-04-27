@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>form pendaftaran admin autobase</title>
+
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="tugas.css">
+    </head>
+    <body bgcolor="#F5F5DC">
+        <script lang="javascript">
+                    function danger(){
+                var nama = (document.f.inama.value);
+                if(nama == ""){
+                    document.getElementById("namafokus").style.background = "#DEB887";
+                }
+            }
+
+            function danger2(){
+                var usia = (document.f.iusia.value);
+                if(usia == ""){
+                    document.getElementById("usiafokus").style.background = "#DEB887";
+                }
+            }
+
+            function danger3(){
+                var email = (document.f.iemail.value);
+                if(email == ""){
+                    document.getElementById("emailfokus").style.background = "#DEB887";
+                }
+            }
+
+            function pokus(){
+                document.getElementById("namafokus").style.background = "#FAEBD7";
+            }
+
+            function pokus2(){
+                document.getElementById("usiafokus").style.background = "#FAEBD7";
+            }
+
+            function pokus3(){
+                document.getElementById("emailfokus").style.background = "#FAEBD7";
+            }
+
+            function terimakasih(){
+                if((document.f.inama.value!="")&&(document.f.iusia.value!="")&&(document.f.iemail.value!="")){
+                    alert("Terima kasih telah mengisi data. Untuk hasil selanjutnya akan diinfokan melalui email yang sudah dituliskan.");
+                }else{
+                    alert("Mohon untuk melengkapi data anda.");
+                }
+            }
+        </script>
+        <div id="wrap">
+            <div id="judul">
+                <h1>FORMULIR PENDAFTARAN ADMIN AUTOBASE SVT CARAT</h1>
+                **Formulir ini dibuat karena kebutuhan admin untuk autobase <br><br>
+            </div>
+            <form name="f" method="POST">
+                <div id="utama">
+                    <pre>
+Nama    : <input type="text" name="inama" id="namafokus" onfocus="pokus()" onblur="danger()"><br>
+Usia    : <input type="text" name="iusia" id="usiafokus" onfocus="pokus2()" onblur="danger2()"><br>
+Email   : <input type="text" name="iemail" id="emailfokus" onfocus="pokus3()" onblur="danger3()"><br>
+                    </pre>
+                    
+                    <center><input type="button" value="Kirim" onClick="terimakasih()">
+                    <input type="reset" value="Reset"></center>
+            </form>
+            </div>
+        </div>
+    </body>
+</html>
